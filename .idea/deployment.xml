@@ -6,7 +6,7 @@
       <paths name="FundComp">
         <serverdata>
           <mappings>
-            <mapping deploy="/escnfs/home/myang9/esc-courses/sp24-cse-20311.01/dropbox" local="$PROJECT_DIR$" web="/" />
+            <mapping deploy="/escnfs/home/myang9/funcomp" local="$PROJECT_DIR$" web="/" />
           </mappings>
         </serverdata>
       </paths>
