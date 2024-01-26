@@ -1,0 +1,10 @@
+My program in part 2 is aimed to calculate the gravitational force between two objects given their masses and the distance between the two objects.
+
+My program first declares various variables and constants needed for calculation, including the masses, distance, and the gravitational constant.
+Then it prompts the user to enter the masses and distance between the two objects sequentially giving different prompts.
+Finally it calculates the gravitational force between the two objects using a specific formula and prints the result.
+
+I evaluated the program for correctness by plugging in the weight of earth and the radius of earth to see if the result is close to the actual gravitational force between earth and me.
+I then compared the result to what I calculate by hand using F=ma. The results are extremely close to one another that I consider the program to be correct.
+
+I initially expected the program to behave weird when plugging in extremely large numbers or 0 for distance, but it turns out using double is sufficient to handle any weird situation.
