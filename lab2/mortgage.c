@@ -17,7 +17,7 @@ int main(){
     printf("\n");
     // Check for invalid input
     if (initial_amount <= 0 || interest_rate <= 0 || monthly_payment <= 0) {
-        printf("One of your inputs is less than 0!\n");
+        printf("One of your inputs is less than or equal to 0!\n");
         return 0;
     }
     if (monthly_payment < initial_amount * interest_rate / 12) {
