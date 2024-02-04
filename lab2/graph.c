@@ -10,8 +10,8 @@ double equation(double x){
 }
 
 int main(){
-    double start=-10, end=10, step=0.1;
-    int width_allowed=100;
+    double start=-50, end=50, step=.5;
+    int width_allowed=80;
     printf("x\t\tf(x)\n");
     // check min max
     double min_num=INFINITY, max_num=-INFINITY;

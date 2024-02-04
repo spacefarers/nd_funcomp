@@ -7,7 +7,7 @@
 
 int main(){
     int X, Y;
-    printf("Enter the dimensions of the table: ");
+    printf("Enter the dimensions of the table in the format of \"X Y\": ");
     scanf("%d %d", &X, &Y);
     // Header
     printf("*\t\t");

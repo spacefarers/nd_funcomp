@@ -1,0 +1,9 @@
+For my ASCII plot, The user can choose to input the equation by changing the equation() function. For example, changing line 9 to x+1.
+The user can also specify the start and end points of the graph by changing the values of start and end on line 13. The step size can also be changed by changing the value of step on line 13. A smaller step size will result in a more accurate graph, but will take more vertical space and harder to read trends.
+The user can also specify how long horizontally the graph should be. The default is 100. A longer length will result in a more accurate graph, but will take more space and elongate the graph horizontally.
+
+After specifying the variables. The user can run the program and the graph will be printed out in the console alongside the step in question and the function output.
+
+Internally, the program updates through a for loop what the maximum and minimum value of the function is in the range the user provided, and computes a corresponding stepping size between the * character and the value from the equation.
+
+I've ensured the program's correctness by plotting several known functions to me, and seeing if the results match what I'd expect if I were to plot it on Desmos.
