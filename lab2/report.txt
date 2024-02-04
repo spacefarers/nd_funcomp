@@ -1,3 +1,7 @@
+// Fundamentals of Computing
+// Created by Michael Yang on 1/29/24.
+// ASCII Plotter Explanation
+
 For my ASCII plot, The user can choose to input the equation by changing the equation() function. For example, changing line 9 to x+1.
 The user can also specify the start and end points of the graph by changing the values of start and end on line 13. The step size can also be changed by changing the value of step on line 13. A smaller step size will result in a more accurate graph, but will take more vertical space and harder to read trends.
 The user can also specify how long horizontally the graph should be. The default is 100. A longer length will result in a more accurate graph, but will take more space and elongate the graph horizontally.

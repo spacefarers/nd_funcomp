@@ -1,4 +1,4 @@
-//
+// Fundamentals of Computing
 // Created by Michael Yang on 1/29/24.
 // Sum of squares and sum of square roots
 
