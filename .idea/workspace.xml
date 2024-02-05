@@ -21,24 +21,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fd5989ef-a676-46c5-b153-51baa398e518" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/funcomp.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/funcomp.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab3/menucalc.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab3/polar.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab3/quadratics.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab3/rectangle.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab3/report.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab3/testgcd.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab1/prog1.c" beforeDir="false" afterPath="$PROJECT_DIR$/lab1/prog1.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab1/prog2.c" beforeDir="false" afterPath="$PROJECT_DIR$/lab1/prog2.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab1/report.txt" beforeDir="false" afterPath="$PROJECT_DIR$/lab1/report.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab2/digits.c" beforeDir="false" afterPath="$PROJECT_DIR$/lab2/digits.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab2/graph.c" beforeDir="false" afterPath="$PROJECT_DIR$/lab2/graph.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab2/mortgage.c" beforeDir="false" afterPath="$PROJECT_DIR$/lab2/mortgage.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab2/quad.c" beforeDir="false" afterPath="$PROJECT_DIR$/lab2/quad.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab2/report.txt" beforeDir="false" afterPath="$PROJECT_DIR$/lab2/report.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab2/sums.c" beforeDir="false" afterPath="$PROJECT_DIR$/lab2/sums.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab2/table.c" beforeDir="false" afterPath="$PROJECT_DIR$/lab2/table.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.c" beforeDir="false" afterPath="$PROJECT_DIR$/test.c" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,6 +51,9 @@
   &quot;associatedIndex&quot;: 8
 }</component>
   <component name="ProjectId" id="2bt1U8VuIPQ4zM54baGXLcmHwH6" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -86,6 +79,11 @@
   }
 }</component>
   <component name="RunManager">
+    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Fund_Comp" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="funcomp" TARGET_NAME="Fund_Comp" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="funcomp" RUN_TARGET_NAME="Fund_Comp">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -103,7 +101,8 @@
       <workItem from="1707019575834" duration="95000" />
       <workItem from="1707019849732" duration="1238000" />
       <workItem from="1707085297858" duration="99000" />
-      <workItem from="1707085406187" duration="186000" />
+      <workItem from="1707085406187" duration="458000" />
+      <workItem from="1707163463293" duration="2499000" />
     </task>
     <servers />
   </component>

@@ -1,0 +1,11 @@
+// Fundamentals of Computing
+// Created by Michael Yang on 2/5/24.
+// Menu Calculator Explanation
+
+The user gets to choose between one of 5 options. Either addition, subtraction, multiplication, division, or quit. The user will then be prompted to enter two numbers. The program will then perform the operation and display the result. The user can then choose to continue or quit. If the user chooses to quit (5), the program will exit.
+If the user chooses an invalid option, the program will display an error message and prompt the user to enter a valid option. The program will then display the menu again.
+For other options, the user is prompted to enter two numbers, which then runs the calculation and returns the result, for the user to continue his/her next action.
+
+Internally, the program uses a demux_and_switch function inside which has a switch statement to determine which operation to perform. The switch statement is used to determine which operation to perform based on the user's input. It then calls the appropriate function to perform the operation. The demux_and_switch function is called in the main function, which is the entry point of the program. The main function is where the program starts and ends.
+
+I verified the correctness of the program by running it and testing all the options. As the program is fairly simple, I was able to calculate actual values from the inputs in my head.

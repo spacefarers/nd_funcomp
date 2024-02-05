@@ -4,4 +4,5 @@ project(funcomp C)
 set(CMAKE_C_STANDARD 11)
 
 add_executable(Fund_Comp
-        lab2/mortgage.c)
+        lab3/menucalc.c
+)
