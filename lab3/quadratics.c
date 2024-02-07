@@ -6,6 +6,8 @@
 #include <math.h>
 #include <stdbool.h>
 
+double get_determinant(double a, double b, double c);
+
 double get_determinant(double a, double b, double c) {
 	return b * b - 4 * a * c;
 }

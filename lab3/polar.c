@@ -5,6 +5,11 @@
 #include <stdio.h>
 #include <math.h>
 
+int get_quadrant(double x, double y);
+double get_radius(double x, double y);
+double get_angle(double x, double y);
+void show_info(int quadrant, double radius, double angle);
+
 int get_quadrant(double x, double y){
 	if (x > 0 && y > 0){
 		return 1;

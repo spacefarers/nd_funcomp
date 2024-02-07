@@ -6,6 +6,12 @@
 #include <math.h>
 #include <stdbool.h>
 
+double add(double a, double b);
+double subtract(double a, double b);
+double multiply(double a, double b);
+double divide(double a, double b);
+void demux_and_select(int op, double a, double b);
+
 double add(double a, double b) {
 	return a + b;
 }

@@ -3,6 +3,9 @@
 // rectangle.c
 #include <stdio.h>
 
+double calculate_perimeter(double len, double wid);
+double calculate_area(double len, double wid);
+
 double calculate_perimeter(double len, double wid) {
 	double perim;
 	perim = 2 * (len + wid);

@@ -5,6 +5,8 @@
 #include <stdio.h>
 #include <math.h>
 
+int get_gcd(int a, int b);
+
 int get_gcd(int a, int b) {
 	int gcd;
 	for (int i=1;i<=((a<b)?b:a);i++){
