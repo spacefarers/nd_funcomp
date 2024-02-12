@@ -6,11 +6,14 @@
 double calculate_perimeter(double len, double wid);
 double calculate_area(double len, double wid);
 
+// This function takes in the length and width of the rectangle and returns the perimeter
 double calculate_perimeter(double len, double wid) {
 	double perim;
 	perim = 2 * (len + wid);
 	return perim;
 }
+
+// This function takes in the length and width of the rectangle and returns the area
 double calculate_area(double len, double wid) {
 	double area;
 	area = len * wid;

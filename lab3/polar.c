@@ -21,12 +21,18 @@ int get_quadrant(double x, double y){
 		return 4;
 	}
 }
+
+// This function takes in the x and y coordinates and returns the length of the line connecting the origin and the point
 double get_radius(double x, double y){
 	return sqrt(x*x + y*y);
 }
+
+// This function takes in the x and y coordinates and returns the angle between the x-axis and the line connecting the origin and the point
 double get_angle(double x, double y){
 	return atan(y/x)*180/M_PI;
 }
+
+// This function takes in the quadrant, radius, and angle and prints them out
 void show_info(int quadrant, double radius, double angle){
 	printf("The point is in quadrant %d\n", quadrant);
 	printf("The radius is %.2f\n", radius);

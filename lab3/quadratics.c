@@ -8,6 +8,8 @@
 
 double get_determinant(double a, double b, double c);
 
+
+// This function takes in the coefficients of the quadratic and returns the determinant for calculating the roots
 double get_determinant(double a, double b, double c) {
 	return b * b - 4 * a * c;
 }

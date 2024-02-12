@@ -7,10 +7,13 @@
 
 int get_gcd(int a, int b);
 
+
+// This function takes in two numbers and returns the greatest common divisor
 int get_gcd(int a, int b) {
 	int gcd;
 	for (int i=1;i<=((a<b)?b:a);i++){
 		if (a%i==0 && b%i==0){
+            // If the current number is a divisor of both a and b, then it is the greatest common divisor so far
 			gcd = i;
 		}
 	}
