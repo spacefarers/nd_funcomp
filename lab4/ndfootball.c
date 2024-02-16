@@ -68,6 +68,7 @@ void wins_for_range(int start, int end) {
 
 // Get years where wins are less than losses
 void years_wins_lt_losses() {
+    printf("Years where ND won less than they lost:\n");
     for (int i = 1900; i < 1900 + data_size; i++) {
         if (get_wins(i) < get_losses(i)) {
             printf("%d ", i);
@@ -76,17 +77,10 @@ void years_wins_lt_losses() {
     printf("\n");
 }
 
-bool check_year_valid(int year) {
-    bool year_valid = year >= 1900 && year < 1900 + data_size;
-    if (!year_valid) {
-        printf("Invalid Year Input!\n");
-    }
-    return year_valid;
-}
-
 
 // Get years where wins are greater than the max wins of the previous 5 years
 void years_wins_gt_prev_five() {
+    printf("Years where ND won more than all 5 prior years:\n");
     for (int i = 1900; i < 1900 + data_size; i++) {
         int max_wins = 0;
         for (int j = i - 5; j < i; j++) {
@@ -100,6 +94,14 @@ void years_wins_gt_prev_five() {
         }
     }
     printf("\n");
+}
+
+bool check_year_valid(int year) {
+    bool year_valid = year >= 1900 && year < 1900 + data_size;
+    if (!year_valid) {
+        printf("Invalid Year Input!\n");
+    }
+    return year_valid;
 }
 
 int main() {
