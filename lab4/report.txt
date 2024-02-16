@@ -1,0 +1,17 @@
+// Fundamentals of Computing
+// Created by Michael Yang on 2/12/24.
+// ND Football Q&A Explanation
+
+The Program will first display to the user a list of options that can be chosen. From there, the user enters a number, corresponding to the action that they would like to take.
+The actions are:
+1. Display Records for a given year
+2. Get Number of wins between a range of years
+3. Get years where wins are less than losses
+4. Get years that ND won more than all 5 prior years
+5. Exit
+
+The program will then execute the action that the user has chosen, take in any necessary parameters and print out the result. It continues to loop until the user decides to exit the program with 5.
+
+Internally, the program stores the games data from 1900 in a global array (wins/losses). There are 4 functions corresponding to each of the actions that the user can take. The main function is the driver of the program, and it calls the appropriate function based on the user's input. The program also has 2 helper functions to get the number of wins/losses for a given year.
+
+I verified the program's correctness by visually inspecting if the results make sense, and comparing it to my own calculations of the data. The program returned correct results during my testing.
