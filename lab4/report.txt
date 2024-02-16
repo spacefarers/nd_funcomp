@@ -13,5 +13,6 @@ The actions are:
 The program will then execute the action that the user has chosen, take in any necessary parameters and print out the result. It continues to loop until the user decides to exit the program with 5.
 
 Internally, the program stores the games data from 1900 in a global array (wins/losses). There are 4 functions corresponding to each of the actions that the user can take. The main function is the driver of the program, and it calls the appropriate function based on the user's input. The program also has 2 helper functions to get the number of wins/losses for a given year.
+The program also has an additional helper function to check if the year inputted by the user is valid. If invalid, the program will alert the user and exit back to the menu screen to select the action again.
 
 I verified the program's correctness by visually inspecting if the results make sense, and comparing it to my own calculations of the data. The program returned correct results during my testing.

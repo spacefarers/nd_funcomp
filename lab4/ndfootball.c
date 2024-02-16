@@ -31,6 +31,7 @@ int losses[] =
          3, 6, 3, 7, 3, 6, 3, 7, 6, 3, 3, 9,
          6, 6, 5, 5, 1, 4, 5, 3, 8, 3, 1, 2,
          2, 2, 4, 3};
+int data_size = sizeof(wins) / sizeof(wins[0]);
 
 // Function prototypes
 int get_wins(int year);
@@ -39,6 +40,7 @@ void display_records(int year);
 void wins_for_range(int start, int end);
 void years_wins_lt_losses();
 void years_wins_gt_prev_five();
+bool check_year_valid(int year);
 
 // helper function to get wins
 int get_wins(int year) {
@@ -66,7 +68,7 @@ void wins_for_range(int start, int end) {
 
 // Get years where wins are less than losses
 void years_wins_lt_losses() {
-    for (int i = 1900; i <= 2023; i++) {
+    for (int i = 1900; i < 1900 + data_size; i++) {
         if (get_wins(i) < get_losses(i)) {
             printf("%d ", i);
         }
@@ -74,10 +76,18 @@ void years_wins_lt_losses() {
     printf("\n");
 }
 
+bool check_year_valid(int year) {
+    bool year_valid = year >= 1900 && year < 1900 + data_size;
+    if (!year_valid) {
+        printf("Invalid Year Input!\n");
+    }
+    return year_valid;
+}
+
 
 // Get years where wins are greater than the max wins of the previous 5 years
 void years_wins_gt_prev_five() {
-    for (int i = 1900; i <= 2023; i++) {
+    for (int i = 1900; i < 1900 + data_size; i++) {
         int max_wins = 0;
         for (int j = i - 5; j < i; j++) {
             // Skip years for comparisons if they are not in the range of the array
@@ -111,11 +121,17 @@ int main() {
             case 1:
                 printf("Enter the year: ");
                 scanf("%d", &year);
+                if (!check_year_valid(year)) {
+                    break;
+                }
                 display_records(year);
                 break;
             case 2:
-                printf("Enter the start and end year consecutively: ");
+                printf("Enter the start and end year in the format of 'start end': ");
                 scanf("%d %d", &start, &end);
+                if (!check_year_valid(start) || !check_year_valid(end)) {
+                    break;
+                }
                 wins_for_range(start, end);
                 break;
             case 3:

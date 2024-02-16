@@ -4,5 +4,5 @@ project(funcomp C)
 set(CMAKE_C_STANDARD 11)
 
 add_executable(Fund_Comp
-        lab3/menucalc.c
+        lab4/ndfootball.c
 )
